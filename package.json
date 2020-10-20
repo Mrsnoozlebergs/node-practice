@@ -17,7 +17,14 @@
   },
   "homepage": "https://github.com/Mrsnoozlebergs/node-practice#readme",
   "devDependencies": {
+    "husky": "^4.3.0",
     "ts-node": "^9.0.0",
+    "tslint": "^6.1.3",
     "typescript": "^4.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn tslint -c tslint.json 'src/**/*.ts'"
+    }
   }
 }
