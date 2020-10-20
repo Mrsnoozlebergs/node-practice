@@ -1,0 +1,23 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mrsnoozlebergs/node-practice.git"
+  },
+  "author": "shuangzhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mrsnoozlebergs/node-practice/issues"
+  },
+  "homepage": "https://github.com/Mrsnoozlebergs/node-practice#readme",
+  "devDependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
